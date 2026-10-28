@@ -1,0 +1,25 @@
+{
+  "id": "b737-800",
+  "name": "Boeing 737-800",
+  "limits": {
+    "mtow_kg": 78217,
+    "mlw_kg": 65317,
+    "mzfw_kg": 61688,
+    "max_tailwind_kt": 15,
+    "max_altitude_ft": 41000
+  },
+  "performance": {
+    "takeoff": {
+      "v_speed_matrix": [
+        { "flaps": 1, "weight_kg": 50000, "v1": 125, "vr": 128, "v2": 138 },
+        { "flaps": 1, "weight_kg": 60000, "v1": 133, "vr": 136, "v2": 143 },
+        { "flaps": 1, "weight_kg": 70000, "v1": 143, "vr": 146, "v2": 150 },
+        { "flaps": 1, "weight_kg": 78217, "v1": 152, "vr": 156, "v2": 159 },
+        { "flaps": 5, "weight_kg": 50000, "v1": 120, "vr": 123, "v2": 133 },
+        { "flaps": 5, "weight_kg": 60000, "v1": 128, "vr": 131, "v2": 138 },
+        { "flaps": 5, "weight_kg": 70000, "v1": 138, "vr": 141, "v2": 145 },
+        { "flaps": 5, "weight_kg": 78217, "v1": 146, "vr": 150, "v2": 153 }
+      ]
+    }
+  }
+}
